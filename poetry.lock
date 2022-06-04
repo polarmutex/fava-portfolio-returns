@@ -53,25 +53,25 @@ requests = "*"
 
 [[package]]
 name = "beangrow"
-version = "0.0.0"
+version = "0.1.0"
 description = ""
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = "^3.8"
 develop = false
 
 [package.dependencies]
-beancount = "*"
-matplotlib = "*"
-numpy = "*"
-pandas = "*"
-scipy = "*"
+beancount = "^2.3.5"
+matplotlib = "^3.5.2"
+numpy = "^1.21"
+pandas = "^1.4.2"
+scipy = "^1.6"
 
 [package.source]
 type = "git"
 url = "https://github.com/polarmutex/beangrow.git"
-reference = "master"
-resolved_reference = "f7a9f453543a3153d0f369add1e1766c5a641697"
+reference = "polar"
+resolved_reference = "372134b6dedbc134eeeea9e5f80d615f68028c85"
 
 [[package]]
 name = "beautifulsoup4"
@@ -782,7 +782,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3839adf936e83aab77e3f040e33d5b2c13750a4dbd688143fb8b356576c7e5e2"
+content-hash = "c943fc195a2a0a18fdda2b5ccfc9182d0a9b879da70ad522ce7b885747fc5bb3"
 
 [metadata.files]
 atomicwrites = [
