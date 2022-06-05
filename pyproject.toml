@@ -8,7 +8,7 @@ license = "GPL-2.0"
 [tool.poetry.dependencies]
 python = "^3.8"
 fava = "^1.21"
-beangrow = {git = "https://github.com/polarmutex/beangrow.git", rev="polar"}
+beangrow = {git = "git@github.com/polarmutex/beangrow.git", rev="polar"}
 
 [tool.poetry.dev-dependencies]
 

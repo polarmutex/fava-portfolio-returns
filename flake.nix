@@ -34,6 +34,16 @@
                 self: super: {
                   numpy = pkgs.python39.pkgs.numpy;
                   python-magic = pkgs.python39.pkgs.python-magic;
+                  fava-porfolio-returns = super.fava-portfolio-returns.overridePythonAttrs (old: {
+                    buildInputs = old.buildInputs or [ ] ++ [
+                      self.poetry
+                    ];
+                  });
+                  beangrow = super.beangrow.overridePythonAttrs (old: {
+                    buildInputs = old.buildInputs or [ ] ++ [
+                      self.poetry
+                    ];
+                  });
                 }
               );
             };
